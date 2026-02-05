@@ -41,3 +41,13 @@ When suggesting:
 - Steps are created **only when I say**: “Start Sprint Sxx”.
 - For that sprint, add a small step list under its section in `docs/SPRINTS.md`.
 - Each Step must have **one responsibility** and be small.
+
+## Collaboration mode (learning-first)
+- Default mode: provide code and commands in chat; user writes the code.
+- Do **not** edit files or run terminal commands unless the user explicitly allows it for that turn.
+- When sharing code, include:
+  - Required new directories/files to create.
+  - Full code blocks per file.
+  - What each class/method/module does and why the chosen Pythonic approach fits.
+- If new dependencies are required, provide the exact `uv` command(s) to install them.
+- Explanations to the user remain in Turkish unless requested otherwise.
