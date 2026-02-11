@@ -1,0 +1,24 @@
+[project]
+name = "filelock-holmes"
+version = "0.1.0"
+description = "scanning files like Sherlock"
+readme = "README.md"
+authors = [
+    { name = "Ahmet Faruk Lacin", email = "ahmetfaruklacin48@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+filelock-holmes = "filelock_holmes:main"
+
+[build-system]
+requires = ["uv_build>=0.9.27,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=1.19.1",
+    "pytest>=9.0.2",
+    "ruff>=0.15.0",
+]
